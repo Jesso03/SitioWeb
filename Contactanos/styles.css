@@ -1,0 +1,158 @@
+/* Estilos Generales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #111, #333);
+    color: white;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img1 {
+    height: 40px;
+}
+
+.nav1 {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    color: orange;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.contactos-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contactos-section h2 {
+    color: #d32f2f; /* Rojo */
+    font-size: 2rem;
+}
+
+.contactos-section p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.redes-sociales {
+    margin: 20px 0;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #1976d2; /* Azul */
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #ffa000; /* Amarillo */
+}
+
+.formulario-contacto {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formulario-contacto button {
+    background-color: #d32f2f; /* Rojo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-contacto button:hover {
+    background-color: #1976d2; /* Azul */
+}
+
+/*pie de pagina*/
+.footer {
+    background: linear-gradient(to right, #333, #111);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-link {
+    color: #e6d400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-link:hover {
+    color: #0041eb;
+}

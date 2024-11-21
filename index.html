@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FerrePlus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header1">
+        <div class="logo1">
+            <img src="https://ferreplus.com.ar/wp-content/uploads/2024/06/logo-ferreplus-ferreteria.png" alt="Logo"
+                class="logo-img1">
+        </div>
+        <nav class="nav1">
+            <a href="./index.html" class="nav-item active">Inicio</a>
+            <a href="./Quienes-Somos/about-us.html" class="nav-item">Quienes somos</a>
+            <a href="./Contactanos/contactanos.html" class="nav-item">Contactanos</a>
+            <a href="./Productos/productos.html" class="nav-item">Productos</a>
+        </nav>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-images" id="carousel-images">
+            <img src="https://www.atrial.com.co/wp-content/uploads/2021/06/juego-de-herramienta-para-mecanico-mm-20-piezas-41f.jpg" alt="Imagen 1">
+            <img src="https://www.atrial.com.co/wp-content/uploads/2021/05/taladro-inalambrico-profesional-1-2-20-v-5df.jpg" alt="Imagen 2">
+            <img src="https://cdn.alumina.com.co/grupo-alumina/a20/uploads/sites/2/2020/05/25175751/galeria-escalera-tijera-aluminio-meseta-metalica.png" alt="Imagen 3">
+            <img src="https://homesale.com.co/cdn/shop/products/hidrolavadora-electrica-1400w-1700psi-herramientas-max-tools-893645.jpg?v=1702459273" alt="Imagen 4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAd9thx6ZfuSjs25p0mC33emNkwe2JR_3Cg&s" alt="Imagen 5">
+        </div>
+        <div class="carousel-controls">
+            <button id="prev" aria-label="Anterior">❮</button>
+            <button id="next" aria-label="Siguiente">❯</button>
+        </div>
+    </div>
+
+    <body>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCO/592926_01/public" alt="Moto 1">
+                <div class="caption">Tornillos drywall</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.ferreteriasuprema.com/cdn/shop/products/setdedestornillador2_2048x2048.jpg?v=1609940935"
+                    alt="Destornillador">
+                <div class="caption">Destornilladores</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKyz6w-bNJwtQpS9s_F1pg2K3Fz1UaMIqaw&s"
+                    alt="Moto 3">
+                <div class="caption">Lamparas LED</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJc2x7c_8Rz9jZotZhNox9vVdQkuh3Nugcmg&s"
+                    alt="Moto 4">
+                <div class="caption">Cinta aislante</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://acdn.mitiendanube.com/stores/399/204/products/cinta-enmascarar-de-1221-f63ed4235e1a5fb15b15930053121440-640-0.jpg"
+                    alt="Moto 5">
+                <div class="caption">Cinta de Enmascarar</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://pintuco.vteximg.com.br/arquivos/ids/251850-1000-1000/Pintura-Viniltex-Acriltex---Cuarto-de-gal-C3-B3n.png?v=638658335404670000"
+                    alt="Moto 6">
+                <div class="caption">Galon de pintura</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_662587-MCO72603905337_102023-O.webp" alt="Moto 7">
+                <div class="caption">Juego de llave de Expansion</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQauBPRTfYH_eKQo0UnaBgimljC9ColzSyTxA&s"
+                    alt="Moto 8">
+                <div class="caption">Cemeneto Argos</div>
+            </div>
+            <div class="gallery-item">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Moto 9">
+                <div class="caption">Galon de Estuco</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfMsXCpZAQucsPkeM56lcYnWKaaVXSBF2yQ&s"
+                    alt="Moto 10">
+                <div class="caption">Juego llaves L</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_710135-MCO52431383713_112022-O.webp" alt="Moto 11">
+                <div class="caption">Cinta De Luz Led 5m</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.kalley.com.co/medias/7705946477376-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxOTgxOHxpbWFnZS93ZWJwfGFEY3hMMmcwWkM4eE5ETTBOemt5TXpZeE9UZzNNQzgzTnpBMU9UUTJORGMzTXpjMlh6QXdNVjgzTlRCWGVEYzFNRWd8MmNlOTVjZTBhNzA3MzYxY2I3ODY3ZDRmOTI4MDI3YTc2NDcxYTIyMTRmZDdkNzllOTEwZTI1YzllNmEzODI1MA"
+                    alt="Moto 12">
+                <div class="caption">Bases para TV 40' - 60'</div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contáctanos</h4>
+                    <p>Email: info@ferreplus.com.</p>
+                    <p>Teléfono: +57 380000</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">X</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p>&copy; 2024 FerrePlus. Todos los derechos reservados. Jessid Rada, Xavier Alandete, Deivid Galindo</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
